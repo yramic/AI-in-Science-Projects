@@ -1,12 +1,20 @@
 # AI in Science and Engineering Projects
 
-This Repository contains several different Projects in the Field of how to find an approximate solution for Partial Differential Equations (PDEs) by using different Deep Learning Methods. These Deep Learning Architectures mainly utilize and combine Mathemtics and Physics with different Machine Learning (ML) approaches. Although, for more complex tasks, just as high turbulence flows it could be seen that most of them still fail and Finite Element or Finite Volume methods still outperform the following illustrated architectures. This said, current research in this field still show promising results. Especially for higher dimensions problem where Numerical Methods fail and the only alternative is a Monte Carlo Simulation, these approaches are able to utilize the Universal Approximation Theorem and present results.
+This Repository contains several different Projects in the Field of how to find an approximate solution for AI in Science and Engineering related tasks by using different Deep Learning Methods. These Deep Learning Architectures mainly utilize and combine Mathemtics and Physics with different Machine Learning (ML) approaches. Although, for more complex tasks, just as high turbulence flows it could be seen that most of them still fail and Finite Element or Finite Volume methods still outperform the following illustrated architectures. This said, current research in this field still show promising results. Especially for higher dimensions problem where Numerical Methods fail and the only alternative is a Monte Carlo Simulation, these approaches are able to utilize the Universal Approximation Theorem and present results.
 
 In the following folders, there will be some problems presented, which utilize physics and math based Neural Network architecture frameworks, such as Neural Operators, more particularly Fourier Neural Operators (FNOs) or Physics informed Neural Networks (PINNs).
+
+Moreover, this folder represents for the major part work being done for the course AI in Science and Engineering at ETH Zurich.
 
 ### Applied_Regression
 
 This task deals with the Kaggle California Housing Challenge and presents the results for a Neural Network approach sovling a regression task. It could be seen from this example that ML approaches like Random Forest still outperform Deep Learning when it comes to predictions for this type of problem.
+
+### Inverted Pendulum
+
+This task involves the solution of the inverted pendulum. Two different approaches in how to solve this task are given
+1) **Reinforcement Learning (RL)**: The inverted pendulum problem can be solved by defining an Action and Observation space and utilizing an RL algorithm to tackle this problem. This approach can be found in the Folder **RL_Inverted_Pendulum**.
+2) **Neural Differential Equation (NDE)**: Another approach is by replacing the quantity of interest for our control task with a Neural Network and redefining the ODE as an NDE. The results can be found in the folder **NDE_Inverted_Pendulum**
 
 ### FNO (Fourier Neural Operator)
 
