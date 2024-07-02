@@ -10,11 +10,29 @@ Moreover, this folder represents for the major part work being done for the cour
 
 This task deals with the Kaggle California Housing Challenge and presents the results for a Neural Network approach sovling a regression task. It could be seen from this example that ML approaches like Random Forest still outperform Deep Learning when it comes to predictions for this type of problem.
 
+### Model_Discovery
+
+One commonly used approach to tackle the problem of model discovery 
+is a method called SINDy, first preseted in [SINDYc](https://www.sciencedirect.com/science/article/pii/S2405896316318298). 
+
+An algorithm called PDE_FIND combines a symbolic regression for the 
+discovery with some domain constraints and a library consisting of 
+several partial derivative operators. The goal of this task is to 
+achieve an inverse modelling where we have given some data of the 
+solution and we want to find the underlying symbolic PDE. More 
+detailed information about this task and how to tackle it can be 
+found in the underlying Jupyter Notebook in the folder **Model_Discovery**.
+
+In order to solve this task you first need to download the data from here: 
+[Data](https://drive.google.com/drive/u/0/folders/1XqjAloJ7zMVqnHJqbwi_315aPqORCunm). 
+Then in a next step you need to create a folder called Data and put the three npz files 
+into this newly created folder inside the Model_Discovery directory.
+
 ### Inverted Pendulum
 
 This task involves the solution of the inverted pendulum. Two different approaches in how to solve this task are given
-1) **Reinforcement Learning (RL)**: The inverted pendulum problem can be solved by defining an Action and Observation space and utilizing an RL algorithm to tackle this problem. This approach can be found in the Folder **RL_Inverted_Pendulum**.
-2) **Neural Differential Equation (NDE)**: Another approach is by replacing the quantity of interest for our control task with a Neural Network and redefining the ODE as an NDE. The results can be found in the folder **NDE_Inverted_Pendulum**
+1. **Reinforcement Learning (RL)**: The inverted pendulum problem can be solved by defining an Action and Observation space and utilizing an RL algorithm to tackle this problem. This approach can be found in the Folder **RL_Inverted_Pendulum**.
+2. **Neural Differential Equation (NDE)**: Another approach is by replacing the quantity of interest for our control task with a Neural Network and redefining the ODE as an NDE. The results can be found in the folder **NDE_Inverted_Pendulum**
 
 ### FNO (Fourier Neural Operator)
 
