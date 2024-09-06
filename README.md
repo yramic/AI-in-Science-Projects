@@ -4,7 +4,7 @@ This Repository contains several different Projects in the Field of how to find 
 
 In the following folders, there will be some problems presented, which utilize physics and math based Neural Network architecture frameworks, such as Neural Operators, more particularly Fourier Neural Operators (FNOs) or Physics informed Neural Networks (PINNs).
 
-Moreover, this folder represents for the major part work being done for the course AI in Science and Engineering at ETH Zurich.
+Moreover, this folder represents for the major part work being done for the courses AI in Science and Engineering, as well as Probabilistic Artificial Intelligence at ETH Zurich.
 
 ### Applied_Regression
 
